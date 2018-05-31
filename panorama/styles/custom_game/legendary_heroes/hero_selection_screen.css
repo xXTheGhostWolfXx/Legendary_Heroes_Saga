@@ -1,0 +1,104 @@
+.RootHeroSelectionScreen
+{
+	height: 100%;
+	width: 100%;
+	background-color: none;
+	background-image: url("file://{images}/custom_game/hero_selection_screen/hero_selection_screen_bg.png"), url( "none" );
+    background-position: center;        /* centers the image within the background (same as "center center") */
+	background-repeat: no-repeat;       /* No repeating image */
+	background-size: 100% 100%;         /* image fills the panel */
+}
+#TEST
+{
+	horizontal-align: center;
+	vertical-align: center;
+	height: 50%;
+	width: 100%;
+	background-color: black;
+	flow-children: right;
+}
+#Heroes
+{
+	horizontal-align: center;
+	vertical-align: center;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	flow-children: right;
+	overflow: squish scroll;
+}
+#LeftButton
+{
+	horizontal-align: left;
+	vertical-align: center;
+	height: 50%;
+	width: 3%;
+	background-color: grey;
+	opacity: 0.05;
+}
+#RightButton
+{
+	horizontal-align: right;
+	vertical-align: center;
+	height: 50%;
+	width: 3%;
+	background-color: grey;
+	opacity: 0.05;
+}
+#ScrollToLeftButton
+{
+	horizontal-align: left;
+	vertical-align: center;
+	height: 30%;
+	width: 100%;
+	background-color: white;
+}
+#ScrollToRightButton
+{
+	horizontal-align: right;
+	vertical-align: center;
+	height: 30%;
+	width: 100%;
+	background-color: white;
+}
+/*#HeroSelection
+{
+	horizontal-align: center;
+	vertical-align: center;
+	height: 70%;
+	width: 80%;
+	background-color: none;
+	flow-children: down;
+}
+#Strength
+{
+	height: 33.3333333333%;
+	width: 100%;
+	opacity: 0.5;
+	background-color: red;
+	flow-children: right;
+}
+#Agility
+{
+	height: 33.3333333333%;
+	width: 100%;
+	opacity: 1;
+	background-color: none;
+	background-image: url("file://{images}/custom_game/hero_selection_screen/agility.png"), url( "none" );
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	flow-children: right;
+}
+#Intelligence
+{
+	height: 33.3333333333%;
+	width: 100%; 
+	opacity: 0.5;
+	background-color: blue;
+	flow-children: right;
+}
+#Test
+{
+	width: 50%;
+}*/

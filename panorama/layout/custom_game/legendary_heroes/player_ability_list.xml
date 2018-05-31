@@ -1,0 +1,10 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/custom_game/legendary_heroes/util.css" />
+        <include src="s2r://panorama/styles/custom_game/legendary_heroes/player_ability_list.css" />
+    </styles>
+     <Panel class="PlayerAbilityPanel">
+         <DOTAAvatarImage id="PlayerImage" steamid=""/>
+         <Panel id="PlayerAbilities" />
+    </Panel>
+</root>

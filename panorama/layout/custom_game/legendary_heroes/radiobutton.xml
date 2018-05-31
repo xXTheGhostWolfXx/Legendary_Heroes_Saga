@@ -1,0 +1,12 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/custom_game/legendary_heroes/util.css" />
+        <include src="s2r://panorama/styles/custom_game/legendary_heroes/tws_radiobutton.css" />
+    </styles>
+
+    <Panel>
+    	<RadioButton id="RadioButton">
+    		<DOTAHeroImage id="RadioImage" heroname="" />
+    	</RadioButton>
+    </Panel>
+</root>

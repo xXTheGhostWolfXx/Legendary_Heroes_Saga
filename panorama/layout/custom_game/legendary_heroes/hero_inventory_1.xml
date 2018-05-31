@@ -1,0 +1,32 @@
+<root>
+    <styles>
+	    <include src="file://{resources}/styles/custom_game/legendary_heroes/hero_inventory_1.css" />
+	</styles>
+
+	<scripts>
+	    <include src="file://{resources}/scripts/custom_game/legendary_heroes/hero_inventory_1.js" />
+	</scripts>
+	
+	<snippets>
+   <!-- <snippet name= "name">
+		</snippet> -->
+	</snippets>
+	<Panel class="hero_inventory_1" hittest="false">
+	    <Panel id= "HeroInventory1_SlotHead">
+	    </Panel>
+		<Panel id= "HeroInventory1_SlotChest">
+	    </Panel>
+	    <Panel id= "HeroInventory1_SlotFeet">
+	    </Panel>
+	    <Panel id= "HeroInventory1_SlotExtra">
+	    </Panel>
+		<Panel id= "HeroInventory1_SlotWeapon">
+	    </Panel>
+		<Panel id= "HeroInventory1_SlotHero">
+	    </Panel>
+	    <DOTAScenePanel id="HeroPortrait" hittest="false" map="antimage_BG" camera="camera_close" renderdeferred="true" light="global_light" antialias="true" particleonly="false" renderwaterreflections="true"/>
+	    <Panel id="Hero_Name">
+	        <Label id="HeroNameText" text="Hero Name" />
+	    </Panel>
+	</Panel>
+</root>

@@ -1,0 +1,104 @@
+.RoundProgressRoot
+{
+    width: 500px;
+	height: 500px;
+	horizontal-align: right;
+	vertical-align: top;
+	/*position: 74% 50px 0px;*/
+	background-color: none;
+}
+#RoundProgressText
+{
+	horizontal-align: center;
+	vertical-align: top;
+	font-family: "Comic Sans MS";
+    font-weight: bold;
+	font-size: 24px;
+	color: white;
+	text-decoration: underline;
+}
+/* Round Progress Bar Styles */
+#RoundProgressMain
+{
+    flow-children: down;
+    margin-top: 30px;
+}
+.RoundProgress
+{
+	flow-children: down;
+}
+#Top
+{
+	width: 500px;
+	height: 30px;
+	margin: 0px 150px 0px 150px;
+	background-color: none;
+}
+#Center
+{
+	width: 500px;
+	height: 50px;
+	margin: 0px 0px 0px 0px;
+	background-color: none;
+}
+#Bottom
+{
+	width: 500px;
+	height: 30px;
+	margin: 0px 150px 0px 150px;
+	background-color: none;
+}
+#RoundNameText
+{
+	horizontal-align: center;
+	vertical-align: center;
+	font-family: "Comic Sans MS";
+    font-weight: bold;
+	font-size: 24px;
+	text-shadow: 5px 5px 5px 0.0 #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+#BackgroundFill
+{
+	width: 100%;
+	height: 100%;
+	margin: 0px 50px 0px 50px;
+    background-color: none;
+	background-image: url("file://{images}/custom_game/legendary_heroes/progress_bar.png"), url( "none" );
+    background-position: center;        /* centers the image within the background (same as "center center") */
+	background-repeat: no-repeat;       /* No repeating image */
+	background-size: 100% 100%;         /* image fills the panel */
+}
+#Background
+{
+	width: 100%;
+	height: 100%;
+    background-color: none;
+	background-image: url("file://{images}/custom_game/legendary_heroes/progress_bar_border.png"), url( "none" );
+    background-position: center;        /* centers the image within the background (same as "center center") */
+	background-repeat: no-repeat;       /* No repeating image */
+	background-size: 100% 100%;         /* image fills the panel */
+}
+#NumberOfEnemiesSlainText
+{
+	horizontal-align: center;
+	vertical-align: center;
+	font-family: "Comic Sans MS";
+    font-weight: bold;
+	font-size: 24px;
+	text-shadow: 5px 5px 5px 0.0 #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+#RoundNumberText
+{
+	horizontal-align: center;
+	vertical-align: center;
+    font-family: "Chiller";
+    font-weight: bold;
+	font-size: 24px;
+	text-shadow: 5px 5px 5px 0.0 #000000;
+	color: #ffffff;
+	text-decoration: none;
+}

@@ -1,0 +1,99 @@
+<root>
+    <styles>
+	    <include src="file://{resources}/styles/custom_game/legendary_heroes/ability_shop.css" />
+	</styles>
+	<scripts>
+	    <include src="file://{resources}/scripts/custom_game/legendary_heroes/ability_shop.js" />
+	</scripts>
+	<script>
+	</script>
+	<snippets>
+		<snippet name="AbilityPanel">
+			<Panel class="AbilityShop">
+	            <Panel id="A">
+	                <Label id="RowText" text="     A     " />
+	            </Panel>
+	            <Panel id="B">
+	            	<Label id="RowText" text="     B     " />
+		        </Panel>
+		        <Panel id="C">
+	                <Label id="RowText" text="     C     " />
+	            </Panel>
+	            <Panel id="D">
+	                <Label id="RowText" text="     D     " />
+	            </Panel>
+	            <Panel id="E">
+	                <Label id="RowText" text="     E     " />
+	            </Panel>
+	            <Panel id="F">
+	                <Label id="RowText" text="     F     " />
+	            </Panel>
+	            <Panel id="G">
+	                <Label id="RowText" text="     G     " />
+	            </Panel>
+	            <Panel id="H">
+	                <Label id="RowText" text="     H     " />
+	            </Panel>
+	            <Panel id="I">
+	                <Label id="RowText" text="      I      " />
+	            </Panel>
+	            <Panel id="J">
+	                <Label id="RowText" text="     J     " />
+	            </Panel>
+	            <Panel id="K">
+	                <Label id="RowText" text="     K     " />
+	            </Panel>
+	            <Panel id="L">
+	                <Label id="RowText" text="     L     " />
+		        </Panel>
+	            <Panel id="M">
+	                <Label id="RowText" text="     M     " />
+		        </Panel>
+	            <Panel id="N">
+	                <Label id="RowText" text="     N     " />
+		        </Panel>
+	            <Panel id="O">
+	                <Label id="RowText" text="     O     " />
+		        </Panel>
+	            <Panel id="P">
+	                <Label id="RowText" text="     P     " />
+		        </Panel>
+	            <Panel id="Q">
+	                <Label id="RowText" text="     Q     " />
+		        </Panel>
+	            <Panel id="R">
+	                <Label id="RowText" text="     R     " />
+		        </Panel>
+	            <Panel id="S">
+	                <Label id="RowText" text="     S     " />
+		        </Panel>
+	            <Panel id="T">
+	                <Label id="RowText" text="     T     " />
+		        </Panel>
+	            <Panel id="U">
+	                <Label id="RowText" text="     U     " />
+		        </Panel>
+	            <Panel id="V">
+	                <Label id="RowText" text="     V     " />
+		        </Panel>
+	            <Panel id="W">
+	                <Label id="RowText" text="     W     " />
+		        </Panel>
+	            <Panel id="X">
+	                <Label id="RowText" text="     X     " />
+		        </Panel>
+	            <Panel id="Y">
+	                <Label id="RowText" text="     Y     " />
+		        </Panel>
+		        <Panel id="Z">
+		            <Label id="RowText" text="     Z     " />
+	            </Panel>
+	        </Panel>
+		</snippet>
+	</snippets>
+	<Panel class="AbilityShopRoot">
+		<Label id="AbilityShopText" text="       Ability Shop       "/>
+		<Panel id="AbilityShopMain">
+	    </Panel>
+	</Panel>
+</root>

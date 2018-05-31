@@ -1,0 +1,128 @@
+.hero_inventory_1
+{
+    width: 500px;
+	height: 600px;
+	position: 0% 0px 0px;
+	opacity: 1.0;
+	
+	background-color: none;
+	background-image: url("file://{images}/custom_game/legendary_heroes/hero_inventory_1_strength.png"), url( "none" );
+    background-position: center;        /* centers the image within the background (same as "center center") */
+	background-repeat: no-repeat;       /* No repeating image */
+	background-size: 100% 100%;         /* image fills the panel */
+}
+
+#Hero_Name
+{
+	horizontal-align: left;
+	vertical-align: top;
+	width: 50%;
+	height: 5%;
+	position: 98px 96px 0px;
+}
+
+#HeroNameText
+{
+	horizontal-align: center;
+	vertical-align: center;
+	font-family: "Comic Sans MS";
+    font-weight: bold;
+	font-size: 24px;
+	text-shadow: 5px 5px 5px 0.0 #000000;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/*Start of Snippets*/
+
+#HeroInventory1_SlotHead
+{
+    width: 70px;
+	height: 85px;
+	position: 15% 25% 0px;
+	opacity: 1.0;
+	
+	background-color: none;
+	background-image: url("file://{images}/custom_game/legendary_heroes/equipment_head.png"), url( "file://{images}/custom_game/legendary_heroes/equipment_slot.png" );
+    background-position: center;        /* centers the image within the background (same as "center center") */
+	background-repeat: no-repeat;       /* No repeating image */
+	background-size: 100% 100%;         /* image fills the panel */
+}
+
+#HeroInventory1_SlotChest
+{
+    width: 70px;
+	height: 85px;
+	position: 15% 37% 0px;
+	opacity: 1.0;
+	
+	background-color: none;
+	background-image: url("file://{images}/custom_game/legendary_heroes/equipment_armor.png"), url( "file://{images}/custom_game/legendary_heroes/equipment_slot.png" );
+    background-position: center;        /* centers the image within the background (same as "center center") */
+	background-repeat: no-repeat;       /* No repeating image */
+	background-size: 100% 100%;         /* image fills the panel */
+}
+
+#HeroInventory1_SlotFeet
+{
+    width: 70px;
+	height: 85px;
+	position: 15% 49% 0px;
+	opacity: 1.0;
+	
+	background-color: none;
+	background-image: url("file://{images}/custom_game/legendary_heroes/equipment_boots.png"), url( "file://{images}/custom_game/legendary_heroes/equipment_slot.png" );
+    background-position: center;        /* centers the image within the background (same as "center center") */
+	background-repeat: no-repeat;       /* No repeating image */
+	background-size: 100% 100%;         /* image fills the panel */
+}
+
+#HeroInventory1_SlotExtra
+{
+    width: 70px;
+	height: 85px;
+	position: 15% 61% 0px;
+	opacity: 1.0;
+	
+	background-color: none;
+	background-image: url("file://{images}/custom_game/legendary_heroes/equipment_extra.png"), url( "file://{images}/custom_game/legendary_heroes/equipment_slot.png" );
+    background-position: center;        /* centers the image within the background (same as "center center") */
+	background-repeat: no-repeat;       /* No repeating image */
+	background-size: 100% 100%;         /* image fills the panel */
+}
+
+#HeroInventory1_SlotWeapon
+{
+    width: 70px;
+	height: 85px;
+	position: 15% 73% 0px;
+	opacity: 1.0;
+	
+	background-color: none;
+	background-image: url("file://{images}/custom_game/legendary_heroes/equipment_weapon.png"), url( "file://{images}/custom_game/legendary_heroes/equipment_slot.png" );
+    background-position: center;        /* centers the image within the background (same as "center center") */
+	background-repeat: no-repeat;       /* No repeating image */
+	background-size: 100% 100%;         /* image fills the panel */
+}
+
+#HeroInventory1_SlotHero
+{
+    width: 45%;
+	height: 58%;
+	position: 31% 30% 0px;
+	opacity: 1.0;
+
+	background-color: none;
+	background-image: url("file://{images}/custom_game/legendary_heroes/HeroSlotBG.png"), url( "none" );
+    background-position: center;        /* centers the image within the background (same as "center center") */
+	background-repeat: no-repeat;       /* No repeating image */
+	background-size: 100% 100%;         /* image fills the panel */
+}
+#HeroPortrait
+{
+	width: 90%;
+	height: 90%;
+	horizontal-align: right;
+	vertical-align: bottom;
+	margin: 30% 25% 12% 32%;
+}

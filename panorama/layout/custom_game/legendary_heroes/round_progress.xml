@@ -1,0 +1,32 @@
+<root>
+    <styles>
+	    <include src="file://{resources}/styles/custom_game/legendary_heroes/round_progress.css" />
+	</styles>
+	<scripts>
+	    <include src="file://{resources}/scripts/custom_game/legendary_heroes/round_progress.js" />
+	</scripts>
+	<script>
+	</script>
+	<snippets>
+		<snippet name="RoundProgress">
+			<Panel class="RoundProgress">
+	            <Panel id="Top">
+	                <Label id="RoundNameText" text="Round Progress" />
+	            </Panel>
+	            <Panel id="Center">
+                    <Panel id="Background" />
+	                <Panel id="BackgroundFill" />
+		            <Label id="NumberOfEnemiesSlainText" text="0/100" />
+		        </Panel>
+		        <Panel id="Bottom">
+		            <Label id="RoundNumberText" text="Round Number" />
+	            </Panel>
+	        </Panel>
+		</snippet>
+	</snippets>
+	<Panel class="RoundProgressRoot">
+		<Label id="RoundProgressText" text="       Round Name       "/>
+		<Panel id="RoundProgressMain">
+	    </Panel>
+	</Panel>
+</root>
